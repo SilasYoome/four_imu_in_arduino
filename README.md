@@ -11,7 +11,7 @@
 *[I2Cdevlib-ITG3200](https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/ITG3200)  
 *[I2Cdevlib-HMC5883L](https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/HMC5883L)  
 *[I2Cdevlib-MPU6050](https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050)  
-*[Grove-IMU 9DOF v2.0 library](https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/res/Grove_IMU_9DOF_9250.zip)  
+*[Grove-IMU 9DOF v2.0 library](https://www.seeedstudio.com/blog/2019/12/09/getting-started-with-mpu-9250-arduino-guide/)  
 
 ## 功能描述
 請在IMUCtrl.cpp中修改IMU_TYPE的參數
