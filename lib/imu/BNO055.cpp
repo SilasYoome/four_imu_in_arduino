@@ -7,8 +7,11 @@
 Adafruit_BNO055 bno = Adafruit_BNO055(-1, 0x29);
 sensors_event_t angVelocityData , magnetometerData, accelerometerData;
 bool BNO055::init(){
-    bno.begin();
+    if(!bno.begin()){
+        return false;
+    }
     bno.setExtCrystalUse(true);
+    return true;
 }
 void BNO055::get_data(float imu_data[9]){
     bno.getEvent(&angVelocityData, Adafruit_BNO055::VECTOR_GYROSCOPE);

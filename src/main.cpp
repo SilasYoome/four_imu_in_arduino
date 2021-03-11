@@ -1,20 +1,19 @@
 #include <Arduino.h>
-#include <BNO055.h>
-#include <MPU6050.h>
-#include <MPU9250.h>
-
-
+#include <IMUCtrl.h>
+//#include <BNO055.h>
+imuctrl imu;
+//BNO055 BNO;
 float imu_data[9];
-BNO055 BNO;
+
 void setup() {
   Serial.begin(9600);
-  BNO.init();
+  imu.init();
   //BNO.init();
 }
 
 void loop() {
-
-  BNO.get_data(imu_data);
+  imu.get_imudata(imu_data);
+  //BNO.get_data(imu_data);
   Serial.println("Accl:");
   Serial.print(imu_data[0]);
   Serial.print(imu_data[1]);
