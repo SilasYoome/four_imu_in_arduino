@@ -16,7 +16,7 @@
 ## 功能描述
 請在IMUCtrl.cpp中修改IMU_TYPE的參數
 
-| IMU_TYPE參數  | 對應IMU |
+| IMU_TYPE  | IMU |
 | ------------- |:-------------:|
 | 85      | GY-85     |
 | 55      | GY-BNO055     |
