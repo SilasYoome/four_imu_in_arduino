@@ -7,7 +7,7 @@
 
 #include<IMUCtrl.h>
 
-#define IMU_TYPE 55
+#define IMU_TYPE 92
 
 void imuctrl::init(){
     if(IMU_TYPE == 85)
